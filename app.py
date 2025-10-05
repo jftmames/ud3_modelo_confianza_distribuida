@@ -175,7 +175,6 @@ with tabs[1]:
         st.caption("Completa valores numéricos para ver el gráfico.")
 
     st.markdown("#### 2.3 Comentario breve (5–7 líneas)")
-    # Botón/Callback antes del text_area para no mutar key tras instanciación
     st.text_area(
         "¿Qué patrón ves entre los tres modelos? ¿Dónde falta soporte jurídico?",
         height=140, key="s1_comentario"
